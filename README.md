@@ -114,93 +114,32 @@ Note: The equations were provided by the Social Policy Analysis and Research for
 
 ## Geospatial Open Data Sources   
 
-Table 3. Historical Earthquake Data
+Table 3. Data Used for Story Maps and Dashboards
 | <b>Data Layer</b> | <b>Data Source</b> |
 | --- | --- |
-| <b>Provinces and Territories of Canada</br> | esri_canada |
-| <b>Earthquakes in Canada</b><br>(1985-2019) | Government of Canada; Natural Resources |
-| <b>Significant Canadian earthquakes</b><br>(1600-2006) | GEOSCAN
-Geological Survey of Canada |
+| <b>US Major Cities</br> | Living Atlas, https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_Major_Cities_/FeatureServer |
+| <b>Great Lakes Watershed</b> | glc_esri, https://www.arcgis.com/home/item.html?id=fe80bdd627d343e8b949ab88bc8312a1#overview |
+| <b>Great Lakes Shorelines</b> | glc_esri, https://www.arcgis.com/home/item.html?id=d87347457bc84e5c985db9e904b66b10 |
+| <b>First Nations Locations (Canada)</b> | Open Government Canada.ca, https://open.canada.ca/data/en/dataset/b6567c5c-8339-4055-99fa-63f92114d9e4 |
+| <b>Major Canadian cities</b> | EsriCanadaEducation, https://www.arcgis.com/home/item.html?id=71894d6f009545be863ae4e85b82faa3 |
+| <b>Native Territories</b> | native-land, https://native-land.ca/ |
+| <b>Coastal Wetlands, 2004</b> | EPA, https://www.arcgis.com/home/item.html?id=35a94fa85c954b36b22c18514e47f307 |
+| <b>Great Lakes Water Quality Monitoring and Surveillance Data (Temperature, Dissolved Oxygen used)</b> | ECCC via Datastream, https://datastream.org/en/dataset/85297d0c-4c71-422b-b213-8f1bde19b00e |
+| <b>Great Lakes Outline</b> | sparksa_umich, https://www.arcgis.com/home/item.html?id=2de767ba747f4a7d93b45e5dd980402d |
+| <b>Great Lakes Ice Cover, mean annual percent coverage</b> | GLAHF, https://www.glahf.org/data/ |
+| <b>NOAA Optimum Interpolation 1/4 Degree Daily Sea Surface Temperature (OISST) Analysis, Version 2</b> | NOAA, https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00844/html |
 
-Table 4. Multi-Criteria Decision Analysis and eastQUAKE Vulnerability Data.
+Table 4. Canadian Lake Ontario Stress Index Data 
 | <b>Data Layer</b> | <b>Data Source</b> |
 | --- | --- |
-| <b>Population Density in 2016 by CT</b>| City of Hamilton https://open.hamilton.ca/datasets/3470c8be2fd64103a774c6ad857dbbcc_2/explore |
-| <b>Hamilton CTs</b>| City of Hamilton |
-| <b>Hospitals</b> | City of Hamilton https://open.hamilton.ca/datasets/a5867b5375544ceb8f06544a5ed349a5_15/explore?location=43.243107%2C-79.843051%2C13.18 |
-| <b>Fire stations</b>| City of Hamilton  https://open.hamilton.ca/datasets/dbb028cd6bcc4b218c607952b760fd04_5/explore?location=43.259500%2C-79.910650%2C11.81 |
-| <b>Age by CT in 2016</b><br>| City of Hamilton https://data-spatialsolutions.opendata.arcgis.com/datasets/cdc66a4b09a147c39eeb747c15d5f9d8_4/explore?showTable=true |
-| <b>Streets</b>| City of Hamilton https://open.hamilton.ca/datasets/f7af2fb9139444a0b3331f4663c16b15_14/explore?location=43.291554%2C-79.935150%2C11.18 |
-| <b>Watercourse (rivers)</b> | City of Hamilton https://open.hamilton.ca/datasets/6b303eed313244a992b1fdf3935cc1dd_7/explore?location=43.259900%2C-79.934300%2C11.21 |
-| <b>buildings</b>| City of Hamilton |
-| <b>Soil Landscapes of Canada</b> | Soil Landscapes of Canada Working Group, 2011. Soil Landscapes of Canada version 3.2. Agriculture and Agri-Food Canada. |
-| <b>Digital Elevation Model (DEM) - Provincial Tiled Dataset</b><br> | Ontario Mortality Data 2005- 2009, Ontario Geospatial Data Exchange (OGDE), Ministry of Natural Resources (OMNR) Ontario, Canada |
-| <b>Digital surface model derived from imagery</b> | Ontario GeoHub https://geohub.lio.gov.on.ca/maps/mnrf::ontario-digital-surface-model-imagery-derived/explore?location=43.541814%2C-79.509764%2C7.68 |
-| <b>Lithology</b> | https://www.geologyontario.mndm.gov.on.ca/mndmaccess/mndm_dir.asp?type=pub&id=MRD126-REV1 |
-
-Table 3. eastQUAKEs Near You Data.
-| <b>Data Layer</b> | <b>Data Source</b> |
-| --- | --- |
-| <b>Earthquakes in Canada </b>(1985-2019) | Government of Canada; Natural Resources | 
-| <b>Significant Canadian earthquakes </b>(1600-2006) | GEOSCAN Geological Survey of Canada |
-| <b>Census Subdivisions of Canada 2016</b> | The Living Atlas |
-| <b>Population Centres 2018</b>| Derived from Administrative Boundaries in Canada |
+| <b>Shipping Lanes in the Great Lakes</b>| glc_esri, https://www.arcgis.com/home/item.html?id=a4940deebec84fb9b6afa65afcbf891d |
+| <b>Cumulative Degree Days</b>| GLAHF, https://www.glahf.org/data/ |
+| <b>Invasive Species Data</b> | GLAHF, https://www.glahf.org/data/ |
+| <b>Road Density</b>| Ontario GeoHub, https://geohub.lio.gov.on.ca/datasets/mnrf::ontario-road-network-orn-road-net-element/explore?location=43.391575%2C-79.694348%2C10.58 |
+| <b>Provincial Water Quality Data</b>| MECP via ECCC, https://osdp-psdo.canada.ca/dp/en/search/metadata/NRCAN-FGP-1-e6c795b6-32fe-42b7-acf7-836e216c05d6 |
+| <b>Sediment Quality Data</b> | ECCC, https://osdp-psdo.canada.ca/dp/en/search/metadata/NRCAN-FGP-1-e6c795b6-32fe-42b7-acf7-836e216c05d6 |
+| <b>Beach Closures</b>| https://osdp-psdo.canada.ca/dp/en/search/metadata/NRCAN-FGP-1-e6c795b6-32fe-42b7-acf7-836e216c05d6 |
  
 ## **Reference**   
- 
-Earthquake: https://www.thecanadianencyclopedia.ca/en/article/earthquake  
 
-Earthquakes: Information & Facts:
-https://www.redcross.ca/how-we-help/emergencies-and-disasters-in-canada/types-of-emergencies/earthquakes/earthquakes-information-facts  
-
-EARTHQUAKES IN EASTERN CANADA: A THREAT THAT CAN BE
-MITIGATED: 
-http://www.geohazard.ggl.ulaval.ca/0_Keynotes/lamontagne.pdf 
-
-Earthquakes and Plate Tectonics: 
-https://openpress.usask.ca/physicalgeology/chapter/12-3-earthquakes-and-plate-tectonics-2/ 
-
-Understanding intraplate earthquakes: 
-https://blogs.egu.eu/divisions/gd/2020/07/08/intraplate_earthquake/ 
-
-The 1929 Magnitude 7.2 "Grand Banks" earthquake and tsunami: 
-https://earthquakescanada.nrcan.gc.ca/historic-historique/events/19291118-en.php 
-
-Earthquake zones in Eastern Canada:
-https://www.seismescanada.rncan.gc.ca/zones/eastcan-en.php 
-
-Preparing for an earthquake: https://www.ready.gov/earthquakes#:~:text=Prepare%20Before%20an%20Earthquake&text=Make%20an%20Emergency%20Plan%3A%20Create,fire%20extinguisher%20and%20a%20whistle. 
-
-DISASTER PREPAREDNESS AND SUSTAINABLE DISASTER RISK MANAGEMENT IN A CHANGING ENVIRONMENT: https://www.witpress.com/Secure/elibrary/papers/SDP20/SDP20036FU1.pdf 
-
-Video and Audio references:
-Stock footage credits: https://www.pexels.com/videos/ 
-https://www.videvo.net/ 
-National Geographic: https://www.youtube.com/watch?v=_r_nFT2m-Vg&t=39s
-https://www.youtube.com/watch?v=e7ho6z32yyo
-EarthScience Western Australia: https://www.youtube.com/watch?v=FjXb97qR5C8
- 
-Background music credits: https://www.bensound.com
- 
-Image credits to: 
-https://doi.org/10.1016/j.pepi.2008.03.017 (Schematic cross-section of the subduction)
-https://earthquakescanada.nrcan.gc.ca/historic-historique/events/19291118-en.php (Grand Banks earthquake images and newspaper)
-https://www.seismescanada.rncan.gc.ca/zones/eastcan-en.php (Earthquake zones in Eastern Canada)
-https://www.cgsentinel.com/uploads/images/2018/12/a31e02a5560bef97d5eee2ff136b4542.jpg (story map seismic background)
-https://www.pexels.com/photo/building-construction-industry-house-11460993/ (Mike)
-https://www.pexels.com/photo/people-water-building-bridge-5903489/ (Andrey Karpov)
-https://www.pexels.com/photo/magnifying-glass-and-wind-rose-on-maps-7412095/ (Monstera)
-https://www.pexels.com/photo/houses-near-trees-2079223/ (Emre Can Acer)
-Halifax skyline (https://banffventureforum.com/home-2/halifax-skyline/)
-Hamilton skyline (https://en.wikipedia.org/wiki/List_of_tallest_buildings_in_Hamilton,_Ontario)
-Toronto skyline (https://unsplash.com/s/photos/toronto-skyline)
-Ottawa skyline (https://www.istockphoto.com/photos/ottawa-skyline)
-Montreal skyline (https://www.alamy.com/stock-photo/montreal-skyline.html)
-Quebec skyline (https://www.shutterstock.com/image-photo/quebec-city-skyline-panorama-over-river-154975961)
-Charlottetown skyline (https://www.myconsultant.ca/EN/A-Newcomers-Guide-to-Charlottetown)
-Saint John skyline (https://www.paulsaulnier.com/2017/07/23/hometown-saint-john-new-brunswick/)
-Moncton skyline (https://commons.wikimedia.org/wiki/File:Skyline_of_Moncton_in_2015_(cropped).jpg)
-St.John’s skyline (https://www.123rf.com/photo_85839178_st-john-s-cityscape-with-a-port-capital-city-of-newfoundland-and-labrador-canada.html)
-Earthquakes Canada reported a 5.2 magnitude earthquake hit near Shawville, Quebec image https://www.ctvnews.ca/canada/central-canada-quakes-a-closer-look-at-the-region-s-risk-of-tremors-1.1286076 
-https://www.pexels.com/photo/first-aid-kit-on-gray-background-5673523/ (Roger Brown)
-https://www.pexels.com/photo/photo-of-a-person-covering-her-head-with-her-sweater-6951520/ (cottonbro)
+References 
