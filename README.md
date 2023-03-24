@@ -40,77 +40,53 @@ Users can learn more about which factors went into the calculation of Lake Ontar
 ## **Calculations**   
 
 Calculations for the Canadian Lake Ontario Stress Index were done following a typical Multi-Criteria Decision Analysis (MCDA) procedure using a Pairwise Comparison Matrix, with the Weighted Overlay Tool. All calculations were made using Microsoft Excel and the Field Calculator in ArcGIS Pro Version 2.8.6.   
-The Index was calculated using ?? indicators that were weighted and combined to form the index. The data from which the ?? factors were derived are outlined in detail in Table 2 of the “Geospatial Open Data Sources” section. 
+The Index was calculated using 8 indicators that were weighted and combined to form the index. The data from which the 8 factors were derived are outlined in detail in Table 3 of the “Geospatial Open Data Sources” section. 
 
-The Euclidian Distance Tool was used to determine distances from hospitals, fire stations, watercourses, and roads. 
-The distances to hospitals and firestations matter because in an emergency, it is ideal to be close to emergency responders. Distance to watercourses matters and is worse the closer you are to the water because in an earthquake, streams can cause liquefaction of the soil which can be very damaging. Distance to roads is good because the closer you are to a road, the more opportunity and acess you have to escape.
+Factors were selected based on a literature review of previous shoreline stress indices and data availability. Below is an explanation of the factors used:
 
-The Feature to Raster Tool was used to convert the polygon data (population density, ages, lithology, soil type) into raster form. 
-Higher population density is bad in the case of an earthquake because more people will be prone to injury in more cramped settings, especially apartment buildings where floors can collapse. Young people and Seniors are more likley to be victims of an earthquake because they are the most vulnerable populations. Lithology is important because types of rocks react differently to earthquakes, as with soil type.
+Commercial Shipping Lanes - Shipping via large boats in the Great Lakes contributes to pollution, emissions, invasive species vulnerability, and disturbance of marine life. Proximity to these lanes is indicative of more stress.
 
-To obtain building heights (taller buildings are more of a risk in earthqukes), the Digital Elevation Model was subtracted from the Digital Surface Model. 
+Warming Temperature - Areas where the magnitude of mean annual Cumulative Degree Days (CDD, a measure of the cumulative temperature of one year) increased between 2000 and 2020, indicating a disproportional warming effect in the area. These areas are more prone to the effects of warming waters (evaporation, less dissolved oxygen, etc.) and contribute to overall stress.
+
+Invasive Species Abundance - Incidences of documented invasive species sightings were mapped (zebra mussels, etc.) Proximity to high amounts of invasive species puts stress on the ecology of an area because invasive species compete with native species for resources, adding to the stress.
+
+Coastal Road Density - One way to measure the relative development of a shoreline zone is to look at the abundance of roads in close proximity to the coast. The disturbance of shoreline zones contributes to the stress of the waters because the natural shoreline zone acts as a buffer for pollutants making their way to the water. Paving these areas deteriorates the natural buffer zone.
+
+Water Quality - Proximity to locations with contaminant levels over the provincial safety limits indicates a polluted, stressed area.
+
+Sediment Quality - Proximity to locations with contaminant levels over the provincial/federal safety limits indicates a polluted, stressed area.
+
+Beach Closures - Incidence rate of public beach closures due to reasons like algae blooms or harmul bacteria are indicative of an area in distress.
+
+Ice Cover Decrease - Areas where the mean annual percent ice cover decreased between 1980 and 2010.
+
+The Canadian side of Lake Ontario was divided into equal sized strips to represent stress index zones, then nearshore zones were added to demonstrate the difference between open water and nearshore stress in Lake Ontario. The Euclidian Distance Tool was used to determine distances to commercial shipping lanes, invasive species sightings, coastal road density, areas with poor water and sediment quality, and beach closures. Raster surfaces were produced with the amount of change of CDD's and ice cover decrease for Lake Ontario). 
 
 ##### _Part 1 - Indicator Standardization_   
 
-The rasters were all put through the Reclassify tool to reclassify the data on a scale of 1 - 10, with 10 being the most susceptible to earthquake risk and 1 being the least. Equal Intervals were used for all datasets.   
+The rasters were all put through the Reclassify tool to reclassify the data on a scale of 1 - 20, with 1 being the most stressed and 20 being the least stressed. Equal Intervals were used for all datasets.   
 
 ##### Part 2 - Assigning weights and weight standardization   
 
 Each indicator was assigned a weight reflective of its proportion to its influence using a Pairwise Comparison Matrix.
 
 ###### Table 1. Pairwise Comparison Matrix  
-![alt text](https://github.com/oliviamadd/Equapolis/blob/main/img/t1.png?raw=true)
+![alt text](https://github.com/omaddz/climakechange/t1.png?raw=true) 
 
-Factor 1 refers to neighbourhoods with high socioeconomic challenges, such as high unemployment and lower incomes. Factor 2 describes neighbourhoods with physical infrastructure challenges, such as low walkability and a low number of healthy food stores. Factor 3 refers to neighbourhoods with acute vulnerabilities, such as higher premature mortality and unnecessary hospitalizations. These factors correspond to the research done by Urban HEARTS@Toronto as common challenges faced by Toronto neighbourhoods, making these factors appropriate for calculating inequity.    
+The composite weight for each indicator was calculated using the following formula, which was done in Microsoft Excel by Team McLakers:
 
-Because the Neighbourhood Equity Index is meant to identify differences between neighbourhoods, the factors explaining the most variance were weighted more heavily. Weights for the 15 indicators (listed in Table 1 above) were derived by the Social Policy Analysis and Research for the City of Toronto based on the Eigenvalues and community consultations [12].   
+Indicator Weight = (Factor Score1 * Eigenvalue1) + (Factor Score2 * Eigenvalue2) + (Factor Score3 * Eigenvalue3)
 
-The composite weight for each indicator was calculated using the following formula, which was done in Microsoft Excel by Team McRaster:   
+Once the indicator weights were calculated, they were standardized so the sum of all weightings equal 1, using this formula:
 
-Indicator Weight =  (Factor Score1 * Eigenvalue1) + (Factor Score2 * Eigenvalue2) + (Factor Score3 * Eigenvalue3)   
+Standardized Indicator Weight = Indicator Weight / Sum of all Indicator Weights
 
-#### Sample calculation of the Indicator Weight for Diabetes:   
+###### Table 1. Pairwise Comparison Matrix  
+![alt text](https://github.com/omaddz/climakechange/t2.png?raw=true) 
 
-Indicator Weight =  (0.826 * 5.378) + (0.323 * 3.147) + (0.218 * 2.559)   
-				= 6.017   
+##### Part 3 - Calculating the Canadian Lake Ontario Stress Index 
 
-
-Once the indicator weights were calculated, they were standardized so the sum of all weightings equal 1, using this formula:     
-
-Standardized Indicator Weight = Indicator Weight / Sum of all Indicator Weights    
-
-
-#### Sample calculation of the Standardized Indicator Weight for Diabetes:   
-Standardized Indicator Weight = 6.017 / 51.213   
-= 0.117   
-
-###### Table 2. Final weights (in %) of all 15 indicators   
-![alt text](https://github.com/oliviamadd/Equapolis/blob/main/img/t2.png?raw=true)
-
-##### _Part 3 - Calculating the Neighbourhood Equity Index (NEI)_  
-
-Weighted Neighbourhood Equity index was first calculated so that the resulting scores ranged from 0 to 1, where 1 is inequitable and 0 is equitable:  
-
-Weighted Score = Sum of  (Standardized Indicator Value(i) * Standardized Indicator Weight(i))
-Where i is one of the 15 indicators   
-
-#### Sample calculation of the Weighted Score for Diabetes (Bridle Path-Sunnybrook-York Mills Neighbourhood):   
-
-Weighted Score = 0.040404 * 0.117   
-= 0.169223   
-
-
-Finally, the scores were reversed and multiplied by 100 so that the final Neighbourhood equity Index would range from 0 to 100, with 0 being least equitable (worst outcomes) and 100 being most equitable (best outcomes):   
-
-Neighbourhood Equity Index = (1- Weighted Score) * 100   
-
-#### Sample calculation of the Neighbourhood Equity Index (Bridle Path-Sunnybrook-York Mills Neighbourhood):   
-
-Neighbourhood Equity Index = (1- 0.169223) * 100
-= 83.08   
-
-
-Note: The equations were provided by the Social Policy Analysis and Research for the City of Toronto, but all calculations were re-done by Team McRaster in Microsoft Excel and the ArcGIS Pro Field Calculator to display the data spatially. The intention of Team McRaster is to display this data in an interactive and transparent manner, to reach the citizens of Toronto and key decision makers.    
+All of the reclassified rasters and their weights were loaded into the Weighted Overlay Tool. The output was the Stress Index surface. Zonal Statistics were used to determine the average stress for each of the stress index zones previously created.  
 
 ## Geospatial Open Data Sources   
 
