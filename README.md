@@ -1,49 +1,17 @@
-# **eastQUAKE: Raising Awareness About Earthquake Vulnerability in Eastern Canada** 
+# **cliMAKEchange: With Great Lakes Comes Great Responsibility** 
 
 Team: Angelina Abi Daoud, Olivia Maddigan, and Madinakhon Sulaymonova  
 
 ## **Mission Statement**  
 
-When we think of earthquakes in Canada, most of us think of the high magnitude Earthquakes that happen on the West Coast, in British Columbia along the Cascadia Subduction Zone. However, approximately 450 earthquakes occur in eastern Canada each year, and the people living there don’t even know the extent of this risk.
-
-Though many earthquakes have occured over time, only some are listed as being historic due to a variety of factors - magnitude, extent of impact from damage, number of casualties. Earthquakes are often measured using the Moment Magnitude scale, which measures the energy released by an earthquake, from 1 to 10. Each step in magnitude is approximately 30 times the amount of energy as the previous step. This means that an earthquake of magnitude 2.0 releases 30 times the energy as a magnitude 1, and a magnitude 3 earthquake releases 900 times the energy of a magnitude 1. However, magnitude alone doesn’t necessarily determine the destructive capabilities of an earthquake, which is often what we as people care about - the resilience of the communities we built, and the lives of those we love. 
-
-The proximity of the earthquake to a population centre, how shallow in the Earth it occurs, and the secondary effects such as tsunamis, contamination of water supplies, gas leaks, power outages, landslides, and fires, are all factors that go into the devastation this natural disaster can bring. Although intraplate earthquakes are typically lower magnitudes, the risk in Eastern Canada has more to do with vulnerability. 
-
-Intraplate earthquakes, also referred to as within-plate earthquakes, are triggered within plate interiors. The reactivation of old rifts is the main cause of this type of earthquake. In North America, factors such as glacio-isostatic adjustment, weakening of mantle from rifting or a rise of plume, gravitational body forces, large scale mantle convection, and dynamic topography can prompt an intraplate earthquake event to take place. This event can occur indirectly with plate boundaries. As rift-zone faults rupture from rocks within a particular seismic zone begin to become weak and fragmented, then tectonic forces apply stress on the plate boundaries that are being transmitted within the continent leading to earthquake events. 
-
-Earthquake prone regions of Eastern Canada are divided based on clusters of earthquake activities: West Quebec, Charlevoix-Kamouraska, Lower St. Lawrence, Northern Appalachians, Laurentian Slope, Eastern Northern Ontario, and Southern Great Lakes. Considering the various zones that exist on the eastern side of Canada, our population is vulnerable to earthquake impacts due to our unpreparedness as a society. That is why it is important to consider disaster risk management as a way to enhance sustainable development within communities of Eastern Canada. This is a crucial pillar when looking for ways to develop a disaster-resilient society. Further advancing and supporting sustainable communities needs the hands of the general public, which is why being aware is crucial so they can prepare. Sustainability is an important aspect to consider for risk management as it ensures preventive measures against threats and earthquakes are set, with hopes that an effective preparedness plan and response can help the community.  
-
-The primary purpose of eastQUAKE is to first and foremost raise awareness of earthquake vulnerability in eastern Canada. Seismic hazard maps compare the relative hazard of all of Canada, so eastern Canada will always seem low hazard compared to the West coast. However, we know from historical earthquakes that large magnitude and damaging earthquakes can happen, and will inevitably happen again. Team McDisaster has released two interactive web apps available within the eastQUAKE Story Map, each designed to increase earthquake awareness for Eastern Canadians: eastQUAKEs Near You and eastQUAKE Vulnerability. These applications are designed to communicate risk factors associated with vulnerability to earthquakes. 
-
-Starting with the eastQUAKEs Near You, this web app allows Eastern Canadians to learn if they live within a certain distance from a past earthquake that was higher than 2.5 magnitude, in other words it helps with identifying earthquakes that have happened near their communities. On the other hand, eastQUAKE Vulnerability is designed to communicate risk factors associated with vulnerability to earthquakes. A Multi-Criteria Decision Analysis (MCDA) was conducted to determine the top 10 most vulnerable areas in Hamilton, as well as rank the vulnerability of each Hamilton census tract. The MCDA used a pairwise comparison matrix to determine appropriate weights for each factor. There are countless factors that can contribute towards the damage caused by an earthquake. However, social, environmental, and physical factors had appeared most consistently in the relevant literature, and that we felt would provide a comprehensive MCDA for our local study site of focus - Hamilton, Ontario. 
-
-Hamilton was used as we wanted to quantify earthquake risk so that Hamiltonians, and ultimately all eastern Canadians, can be prepared well ahead of anything that might happen. Earthquakes are unpredictable, and knowing that your region is earthquake-prone is the first step. Western Canadians are taught earthquake safety from a young age, and for good reason, but eastQUAKE wants every eastern Canadian located in a seismic hazard zone to know the exact course of action to take when one hits. That is why eastQUAKE to make sure you are aware, so you can prepare! 
+Missing
 
 ## **App Description and Features**   
-## **eastQUAKEs Near You Web App**
+## **cliMAKEchange Lake Stress Index**
 
-Helps Eastern Canadians identify earthquakes that have happened near their communities.
+How is Lake Onrario doing?
 
-##### _Earthquakes Near Me?_   
-Eastern Canadians are often unaware that they live in a seismically active zone where earthquakes have and will happen.
-This feature allows users to define a buffer radius around any Eastern Canadian address (or your current location) to view which earthquake events have happened near you.
-The user is prompted to enter their address, enable their current location, or drop a pin to locate earthquakes near them and display the time and date they happened, their magnitude, and a description of the place.
-Default search radius is 50 km, user can scroll the bar to increase or decrease from 1 km to 100 km.
-This tool is meant for Eastern Canadians to realize whether or not they live near an area where an earthquake has occurred. 
-
-##### _Major Cities_    
-This feature displays 10 major Eastern Canadian cities that, when clicked, automatically takes users to their chosen city.
-
-##### _Filter by Magnitude_    
-Users can filter the magnitudes of the earthquakes in order to view whatever range they would prefer to see between 2.5 and 7.2
-
-##### _What's displayed on the map?_   
-The Earthquakes layer displays all earthquakes that are greater than or equal to 2.5 magnitude that have occurred in Eastern Canada from 1600 to 2019.
-The Major Eastern Canadian Cities layer displays a marker for 10 populous cities in Eastern Canada; at least 1 from each province.
-The Population Density layer displays Eastern Canada's 2016 population divided by the census tract areas (km squared), from dark red (high population density) to white (low population density).
-
-## **eastQUAKE Vulnerability Web App**
+## **Lake Stress Index Web App**
 
 Designed to communicate risk factors associated with vulnerability to earthquakes. A Multi-Criteria Decision Analysis (MCDA) was conducted to determine the top 10 most vulnerable areas in Hamilton, as well as rank the vulnerability of each Hamilton census tract. 
 
