@@ -71,7 +71,7 @@ The rasters were all put through the Reclassify tool to reclassify the data on a
 Each indicator was assigned a weight reflective of its proportion to its influence using a Pairwise Comparison Matrix.
 
 ###### Table 1. Pairwise Comparison Matrix  
-![alt text](https://github.com/omaddz/climakechange/t1.png?raw=true) 
+![alt text](https://github.com/omaddz/climakechange/blob/main/t1.png?raw=true) 
 
 The composite weight for each indicator was calculated using the following formula, which was done in Microsoft Excel by Team McLakers:
 
@@ -81,8 +81,8 @@ Once the indicator weights were calculated, they were standardized so the sum of
 
 Standardized Indicator Weight = Indicator Weight / Sum of all Indicator Weights
 
-###### Table 1. Pairwise Comparison Matrix  
-![alt text](https://github.com/omaddz/climakechange/t2.png?raw=true) 
+###### Table 2. Final weights (in %) of all 8 indicators
+![alt text](https://github.com/omaddz/climakechange/blob/main/t2.png?raw=true) 
 
 ##### Part 3 - Calculating the Canadian Lake Ontario Stress Index 
 
