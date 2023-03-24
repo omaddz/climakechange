@@ -16,11 +16,11 @@ First Nations Peoples have lived and coexisted with the Great Lakes ecosystem fo
 
 “If you think that one person can't make a difference, that's not true, because if everybody felt that way we'll go nowhere. If everybody thought ‘my little piece can make a difference’, then cumulatively we make a massive difference.” - Dr. Gail Krantzberg
 
-CliMAKEChange endeavors to make that difference. Through CliMAKEChange, we hope to raise awareness about the issues that our Great Lakes face in the wake of climate change, and to highlight the importance of Indigenous involvement in future management and conservation efforts in the Canadian context. Our app provides a historical comparison factor by bringing awareness through comparing indicators such as dissolved oxygen, surface lake temperatures, and ice cover which reflect climate change-related parameters that have been degrading our lakes. Not only should we try to reverse damage and protect future conservation of our Great Lakes, but a fundamental change in how the lakes are exploited for resources needs to occur if we are to save these ecological wonders for future generations. Join CliMAKEChange as we strive to change the future of our Great Lakes.
+CliMAKEChange endeavors to make that difference. Through CliMAKEChange, we hope to raise awareness about the issues that our Great Lakes face in the wake of climate change, and to highlight the importance of Indigenous involvement in future management and conservation efforts in the Canadian context. Not only should we try to reverse damage and protect future conservation of our Great Lakes, but a fundamental change in how the lakes are exploited for resources needs to occur if we are to save these ecological wonders for future generations. Join CliMAKEChange as we strive to change the future of our Great Lakes.
 
 ## **Canadian Lake Ontario Stress Index: App Description and Features**
 
-The environment is under immense pressure due to climate change, especially sensitive ecosystems such as coastal wetlands. As a result, our Great Lakes are under a lot of stress. A Multi-Criteria Decision Analysis (MCDA) was conducted to determine how stressed the Canadian side of Lake Ontario is to raise awareness and inspire action. A Canadian Lake Ontario Stress Index was calculated based on parameters that were identified as stressful to local ecology and holistic health of Lake Ontario/Oniatarí:io : invasive species, water quality, sediment quality, marine shipping lanes, and monitored beaches. This index is displayed in conjunction with coastal wetlands to emphasize the relationship between the degradation of this sensitive habitat and our stressed coast. Major Canadian cities and First Nations communities are also displayed in the app to highlight the human relationship to this important freshwater treasure.
+The environment is under immense pressure due to climate change, especially sensitive ecosystems such as coastal wetlands. As a result, our Great Lakes are under a lot of stress. A Multi-Criteria Decision Analysis (MCDA) was conducted to determine how stressed the Canadian side of Lake Ontario is to raise awareness and inspire action. A Canadian Lake Ontario Stress Index was calculated based on parameters that were identified as stressful to local ecology and holistic health of Lake Ontario/Oniatarí:io : invasive species, water quality, sediment quality, marine shipping lanes, monitored beaches, and more. This index is displayed in conjunction with coastal wetlands to emphasize the relationship between the degradation of this sensitive habitat and our stressed coast. Major Canadian cities and First Nations communities are also displayed in the app to highlight the human relationship to this important freshwater treasure.
 
 ##### _What are AOCs?_   
 This button defines AOCs (Areas of Concern) in the Great Lakes to provide context for the AOC Tour
@@ -40,25 +40,25 @@ Users can learn more about which factors went into the calculation of Lake Ontar
 ## **Calculations**   
 
 Calculations for the Canadian Lake Ontario Stress Index were done following a typical Multi-Criteria Decision Analysis (MCDA) procedure using a Pairwise Comparison Matrix, with the Weighted Overlay Tool. All calculations were made using Microsoft Excel and the Field Calculator in ArcGIS Pro Version 2.8.6.   
-The Index was calculated using 8 indicators that were weighted and combined to form the index. The data from which the 8 factors were derived are outlined in detail in Table 3 of the “Geospatial Open Data Sources” section. 
+The Index was calculated using 8 indicators that were weighted and combined to form the index. Links for the data from which the 8 factors were derived are listed in Table 3 in the “Geospatial Open Data Sources” section. 
 
 Factors were selected based on a literature review of previous shoreline stress indices and data availability. Below is an explanation of the factors used:
 
-Commercial Shipping Lanes - Shipping via large boats in the Great Lakes contributes to pollution, emissions, invasive species vulnerability, and disturbance of marine life. Proximity to these lanes is indicative of more stress.
+Commercial Shipping Lanes - Shipping via large boats in the Great Lakes contributes to pollution, emissions, invasive species vulnerability, and disturbance of marine life. Proximity to these lanes is indicative of more stress. This data is from the Great Lakes Comission.
 
-Warming Temperature - Areas where the magnitude of mean annual Cumulative Degree Days (CDD, a measure of the cumulative temperature of one year) increased between 2000 and 2020, indicating a disproportional warming effect in the area. These areas are more prone to the effects of warming waters (evaporation, less dissolved oxygen, etc.) and contribute to overall stress.
+Warming Temperature - Areas where the magnitude of mean annual Cumulative Degree Days (CDD, a measure of the cumulative temperature of one year) increased between 2000 and 2013, indicating a disproportional warming effect in the area. These areas are more prone to the effects of warming waters (evaporation, less dissolved oxygen, etc.) and contribute to overall stress. The CDD surface was created by the Great Lakes Aquatic Habitat Framework.
 
-Invasive Species Abundance - Incidences of documented invasive species sightings were mapped (zebra mussels, etc.) Proximity to high amounts of invasive species puts stress on the ecology of an area because invasive species compete with native species for resources, adding to the stress.
+Invasive Species Abundance - Incidences of documented invasive species sightings were mapped. This data includes occurences of sightings of invasive algae, crustaceans, fishes, mollusks, plants, protozoans, reptiles, and viruses from 1847-2013. Proximity to high amounts of invasive species puts stress on the ecology of an area because invasive species compete with native species for resources, adding to the stress. This data was accessed via the Great Lakes Aquatic Habitat Framework, who got it from the Great Lakes Aquatic Nonindigenous Species Information System (GLANSIS). 
 
-Coastal Road Density - One way to measure the relative development of a shoreline zone is to look at the abundance of roads in close proximity to the coast. The disturbance of shoreline zones contributes to the stress of the waters because the natural shoreline zone acts as a buffer for pollutants making their way to the water. Paving these areas deteriorates the natural buffer zone.
+Coastal Road Density - One way to measure the relative development of a shoreline zone is to look at the abundance of roads in close proximity to the coast. The disturbance of shoreline zones contributes to the stress of the waters because the natural shoreline zone acts as a buffer for pollutants making their way to the water. Paving these areas deteriorates the natural buffer zone. This data was provided by the Province of Ontario.
 
-Water Quality - Proximity to locations with contaminant levels over the provincial safety limits indicates a polluted, stressed area.
+Water Quality - Proximity to locations with contaminant levels over the Provincial Water Quality Objectives indicates a polluted, stressed area. The water quality parameters and contaminants measured include pH, water hardness, chloride, mercury, lead, uranium, arsenic, etc. from 2006-2012. This data was derived by Environment and Climate Change Canada Strategic Policy Branch who compiled it from the Ontario Ministry of Environment, Conservation and Parks Great Lakes Nearshore Index Station Network.
 
-Sediment Quality - Proximity to locations with contaminant levels over the provincial/federal safety limits indicates a polluted, stressed area.
+Sediment Quality - Proximity to locations with sediment contaminant levels over the provincial guidelines indicates a polluted, stressed area. Metals, organochlorine pesticides, PAHs and PCBs were monitored from 2007-2016. The lowest trophic level feeds on organisms in the lakebed, so any contamination of the sediment could potentially bioaccumulate up the food chain and end up in the fish that humans consume. This data was derived by Environment and Climate Change Canada Strategic Policy Branch who compiled it from the Ontario Ministry of Environment, Conservation and Parks Great Lakes Nearshore Index Station Network.
 
-Beach Closures - Incidence rate of public beach closures due to reasons like algae blooms or harmul bacteria are indicative of an area in distress.
+Beach Closures - Percent of days of public beach closures due to the beach being deemed unsafe for swimming for reasons like algae blooms or harmul bacteria are indicative of an area in distress. This data was collected from the Swim Drink Fish Swim Guide for 2018 and compiled by Environment and Climate Change Canada Strategic Policy Branch.
 
-Ice Cover Decrease - Areas where the mean annual percent ice cover decreased between 1980 and 2010.
+Ice Cover Decrease - Areas where the mean annual percent ice cover decreased between 1980 and 2010. Decreasing ice coverage is indicative of areas with increased warming. Ice cover is important for marine life and effective nutrient cycling in the lakes. This data was collected from the Great Lakes Aquatic Habitat Framework who derived it from the NOAA Great Lakes Ice Atlas and the NOAA Great Lakes Environmental Research Laboratory. 
 
 The Canadian side of Lake Ontario was divided into equal sized strips to represent stress index zones, then nearshore zones were added to demonstrate the difference between open water and nearshore stress in Lake Ontario. The Euclidian Distance Tool was used to determine distances to commercial shipping lanes, invasive species sightings, coastal road density, areas with poor water and sediment quality, and beach closures. Raster surfaces were produced with the amount of change of CDD's and ice cover decrease for Lake Ontario). 
 
@@ -90,10 +90,9 @@ All of the reclassified rasters and their weights were loaded into the Weighted 
 
 ## Geospatial Open Data Sources   
 
-Table 3. Data Used for Story Maps and Dashboards
+Table 3. Data Used for Story Maps 
 | <b>Data Layer</b> | <b>Data Source</b> |
 | --- | --- |
-| <b>US Major Cities</br> | Living Atlas, https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_Major_Cities_/FeatureServer |
 | <b>Great Lakes Watershed</b> | glc_esri, https://www.arcgis.com/home/item.html?id=fe80bdd627d343e8b949ab88bc8312a1#overview |
 | <b>Great Lakes Shorelines</b> | glc_esri, https://www.arcgis.com/home/item.html?id=d87347457bc84e5c985db9e904b66b10 |
 | <b>First Nations Locations (Canada)</b> | Open Government Canada.ca, https://open.canada.ca/data/en/dataset/b6567c5c-8339-4055-99fa-63f92114d9e4 |
@@ -116,6 +115,107 @@ Table 4. Canadian Lake Ontario Stress Index Data
 | <b>Sediment Quality Data</b> | ECCC, https://osdp-psdo.canada.ca/dp/en/search/metadata/NRCAN-FGP-1-e6c795b6-32fe-42b7-acf7-836e216c05d6 |
 | <b>Beach Closures</b>| https://osdp-psdo.canada.ca/dp/en/search/metadata/NRCAN-FGP-1-e6c795b6-32fe-42b7-acf7-836e216c05d6 |
  
-## **Reference**   
+## **References and Media Credits**   
 
-References 
+Team McLakers
+https://science.howstuffworks.com/environmental/earth/geophysics/5-reasons-why-great-lakes-are-so-great.htm 
+https://www.fondriest.com/news/great-lakes-meteotsunami-experts-hone-in-on-big-wave-forecasts.htm
+https://www.pexels.com/video/top-view-footage-of-a-green-water-falls-3173313/
+https://www.pexels.com/video/time-lapse-of-gray-clouds-forming-in-sky-4318100/
+
+Climate Change and The Great Lakes
+https://www.maritimehistoryofthegreatlakes.ca/GreatLakes/Documents/HGL/default.asp?ID=c002  
+https://www.michigan.org/great-lakes/lake-michigan 
+https://decolonialatlas.wordpress.com/2015/04/14/the-great-lakes-in-ojibwe-v2/  
+https://theconversation.com/warmer-wetter-wilder-38-million-people-in-the-great-lakes-region-are-threatened-by-climate-change-170195 
+https://greatlakes.guide/watersheds/thegreatlakes
+https://www.cbc.ca/news/science/warming-lakes-1.3369700#:~:text=The%20study%20found%20that%20on,American%20Geophysical%20Union%20meeting%20San 
+https://www.nalms.org/nalms-position-papers/climate-change-impacts-on-lakes/
+https://www.pexels.com/video/video-of-a-fish-underwater-8837875/  https://www.pexels.com/photo/brown-bird-on-body-of-water-3076089/ 
+https://images.seattletimes.com/wp-content/uploads/2019/03/urn-publicid-ap-org-36aedba108b4066b243cd278b3ee18bWarming_Great_Lakes_31915.jpg?d=2040x1395 (thumbnail image) 
+https://www.pexels.com/photo/green-pine-trees-beside-body-of-water-2086267/ 
+https://www.victimserviceshuron.ca/land-acknowledgement/ 
+https://www.pexels.com/photo/a-pair-of-geese-standing-on-water-with-the-city-buildings-in-toronto-canada-on-background-7707286/  
+https://www.brucepower.com/2021/08/31/bruce-power-provides-low-cost-reliable-power-to-keep-ontario-cool-through-sweltering-summer-heat/  
+https://unsplash.com/photos/Dh8Ly_8SvYM  
+https://www.pexels.com/photo/high-rise-buildings-photo- 
+https://unsplash.com/photos/1tsjqJ5rIgc  
+https://unsplash.com/photos/sYkr-M78H6w https://www.ideastream.org/news/should-lake-erie-have-legal-rights-toledo-voters-will-decide  
+https://decolonialatlas.wordpress.com/2015/04/14/the-great-lakes-in-ojibwe-v2/  
+https://www.pexels.com/video/steaming-water-on-the-lake-5669748/ 
+https://newscdn.weigelbroadcasting.com/Pd64s-1577065413-embed-1.jpg  
+https://www.pexels.com/video/sewer-pipes-releasing-water-in-the-river-5535467/ 
+https://fishingbooker.com/blog/media/Lake-Superior-1.jpg  
+https://www.pexels.com/video/a-misty-morning-at-the-lake-6156480/ 
+https://www.pexels.com/video/aerial-view-of-green-algae-in-the-dnieper-river-ukraine-13702844/h800694/ 
+
+Great Areas of Concern
+http://canadian-aocs.ca/about/ 
+https://www.thespec.com/news/hamilton-region/2022/03/09/hamilton-harbour-pollution-toxic-chemicals-randle-reef.html
+https://theconversation.com/earth-has-lost-one-fifth-of-its-wetlands-since-1700-but-most-could-still-be-saved-199362
+https://www.canada.ca/en/environment-climate-change/services/great-lakes-protection/areas-concern.html
+https://www.canada.ca/en/environment-climate-change/services/great-lakes-protection/taking-action-protect/coastal-wetlands/assessment-coastal-wetlands.html
+pbs
+https://www.pexels.com/photo/photo-of-people-near-wooden-table-3184418/ 
+https://www.pexels.com/video/trashes-flowing-on-a-lake-9736659/ 
+https://www.pexels.com/video/view-of-sunset-over-a-lake-3624322/ 
+https://unsplash.com/photos/DSxIjXSxjTI 
+https://unsplash.com/photos/Y2M2RpSOwyw 
+https://unsplash.com/photos/qlKaN7eqay8 
+https://www.pexels.com/video/sea-sunset-water-blue-7385122/ 
+https://www.youtube.com/watch?v=NPvR5GWAf40 
+https://www.straight.com/news/620656/chemicals-foul-lake-ontario-air-and-wastewater 
+https://www.pexels.com/video/island-on-lake-huron-10653809/ 
+https://www.pexels.com/video/footage-of-egrets-on-wetland-6348387/ 
+https://www.pexels.com/video/boat-on-a-swamp-14925903/ 
+https://www.pexels.com/video/drone-footage-of-a-coastal-wetland-13724577/
+
+
+Indigenous Inclusion in Great Lakes Governance
+https://digitalcommons.osgoode.yorku.ca/cgi/viewcontent.cgi?article=3988&context=scholarly_works
+https://zhaawanart.blogspot.com/2015/04/reflections-of-great-lakes-part-7.html
+https://native-land.ca/
+https://www.water-alternatives.org/index.php/alldoc/articles/vol14/v14issue1/607-a14-1-2/file
+https://greatlakes.guide/ideas/nations-surrounding-the-great-lakes
+https://www.pexels.com/video/distorted-reflections-of-a-lake-surrounding-on-its-water-surface-3230808/ 
+https://www.pexels.com/video/a-lake-surrounded-by-trees-with-autumn-leaves-3105314/ 
+https://unsplash.com/photos/FrUUf2Jrefw 
+https://americanindian.si.edu/explore/exhibitions/item?id=902 
+https://greatnessglp.com/GAGL/aamjiwnaang/ 
+https://artsandculture.google.com/asset/spirit-fish-carl-ray-1943-1978/-wEcZniXOCvu1Q?hl=en 
+https://www.pexels.com/photo/trees-on-forest-at-daytime-1083515/ 
+https://nativecanadianarts.com/gallery/water-spirits/ 
+https://www.pexels.com/photo/trees-near-body-of-water-518485/ 
+https://www.pexels.com/photo/light-nature-water-summer-1679772/ 
+https://commons.wikimedia.org/wiki/File:Sleeping_Giant_Provincial_Park_Ontario_-_view_from_Thunder_Bay.jpg
+The Great Lakes Water Quality Board, IJC.org
+Jackie Traverse (Ojibwe). Water Spirits, 2015. Photo © DaVic Gallery
+Carl Ray (Cree), 1943-1978. Spirit Fish, 1975. Photo © McMichael Canadian Art Collection
+Patrick DesJarlait (Ojibwe), 1921–1972. Maple Sugar Time, 1946. Photo © 2013, Philbrook Museum of Art
+John Williams (Aamjiwnaang). Mookibii, 2017. Photo © GREATNESS The Great Lakes Project
+Donald Chrétien, an Ojibwe First Nations artist
+Vannessa Circe. Interconnected, 2019.
+Karlene Harvey (Tsilhqot’in and Syilx). Untitled.
+
+Great Lakes, Great Changes
+https://www.syracuse.com/news/2019/10/the-30-year-old-lawsuit-that-cleaned-up-onondaga-lake-is-about-to-end.html 
+https://greatlakes.guide/ideas/nations-surrounding-the-great-lakes 
+https://multipleinc.com/work/great-lakes-protection-fund-thirty-years-of-impact-campaign-anniversary-website   
+https://www.pexels.com/video/presenting-analytics-in-a-business-meeting-6774640/   https://www.pexels.com/photo/photo-of-people-having-meeting-3183186/   
+https://www.pexels.com/photo/people-carrying-black-trash-bag-while-walking-on-the-shore-of-a-beach-8018592/ 
+https://www.pexels.com/photo/garbage-in-lake-13171741/ 
+https://www.pexels.com/photo/landscape-with-lake-and-dry-grass-9983063/ 
+https://www.pexels.com/photo/rocks-on-lakeshore-8807022/ 
+https://www.pexels.com/photo/monochrome-photo-of-industrial-plant-3401354/ 
+https://www.pexels.com/photo/person-standing-near-lake-670720/
+
+Canadian Lake Ontario Stress Index
+https://ijc.org/en/sab/evaluation-stressor-interactions-great-lakes
+http://greatlakesriskmap.org/
+https://legacyfiles.ijc.org/tinymce/uploaded/Ciborowski%20Mapping%20Great%20Lakes%20Threats.pdf
+https://www.canada.ca/en/environment-climate-change/services/great-lakes-protection/taking-action-protect/nearshore-waters/science-at-the-lakeshore.html
+https://graham.umich.edu/activity/16536
+
+
+Video Background Music Credits
+https://www.bensound.com/royalty-free-music/track/slow-motion 
