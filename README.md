@@ -103,6 +103,7 @@ Table 3. Data Used for Story Maps
 | <b>Great Lakes Outline</b> | sparksa_umich, https://www.arcgis.com/home/item.html?id=2de767ba747f4a7d93b45e5dd980402d |
 | <b>Great Lakes Ice Cover, mean annual percent coverage</b> | GLAHF, https://www.glahf.org/data/ |
 | <b>NOAA Optimum Interpolation 1/4 Degree Daily Sea Surface Temperature (OISST) Analysis, Version 2</b> | NOAA, https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00844/html |
+| <b>Protected Areas</b> | Government of Canada, https://open.canada.ca/data/en/dataset/6c343726-1e92-451a-876a-76e17d398a1c/resource/777641aa-9b4b-46d0-b0ac-7cbe6e29673d |
 
 Table 4. Canadian Lake Ontario Stress Index Data 
 | <b>Data Layer</b> | <b>Data Source</b> |
