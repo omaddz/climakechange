@@ -16,7 +16,7 @@ First Nations Peoples have lived and coexisted with the Great Lakes ecosystem fo
 
 “If you think that one person can't make a difference, that's not true, because if everybody felt that way we'll go nowhere. If everybody thought ‘my little piece can make a difference’, then cumulatively we make a massive difference.” - Dr. Gail Krantzberg
 
-CliMAKEChange endeavors to make that difference. Through CliMAKEChange, we hope to raise awareness about the issues that our Great Lakes face in the wake of climate change, and to highlight the importance of Indigenous involvement in future management and conservation efforts in the Canadian context. Not only should we try to reverse damage and protect future conservation of our Great Lakes, but a fundamental change in how the lakes are exploited for resources needs to occur if we are to save these ecological wonders for future generations. Join CliMAKEChange as we strive to change the future of our Great Lakes.
+CliMAKEChange endeavors to make that difference. Through CliMAKEChange, we hope to raise awareness about the issues that our Great Lakes face in the wake of climate change, and to highlight the importance of Indigenous involvement in future management and conservation efforts in the Canadian context. Not only should we try to reverse damage and protect future conservation of our Great Lakes, but a fundamental change in how the lakes are exploited for resources needs to occur if we are to save these ecological wonders for future generations. Join CliMAKEChange as we strive to change the future of our Great Lakes. With Great Lakes, come great responsibilites. 
 
 ## **Canadian Lake Ontario Stress Index: App Description and Features**
 
@@ -132,7 +132,7 @@ https://greatlakes.guide/watersheds/thegreatlakes
 https://www.cbc.ca/news/science/warming-lakes-1.3369700#:~:text=The%20study%20found%20that%20on,American%20Geophysical%20Union%20meeting%20San 
 https://www.nalms.org/nalms-position-papers/climate-change-impacts-on-lakes/
 https://www.pexels.com/video/video-of-a-fish-underwater-8837875/  https://www.pexels.com/photo/brown-bird-on-body-of-water-3076089/ 
-https://images.seattletimes.com/wp-content/uploads/2019/03/urn-publicid-ap-org-36aedba108b4066b243cd278b3ee18bWarming_Great_Lakes_31915.jpg?d=2040x1395 (thumbnail image) 
+https://images.seattletimes.com/wp-content/uploads/2019/03/urn-publicid-ap-org-36aedba108b4066b243cd278b3ee18bWarming_Great_Lakes_31915.jpg?d=2040x1395 
 https://www.pexels.com/photo/green-pine-trees-beside-body-of-water-2086267/ 
 https://www.victimserviceshuron.ca/land-acknowledgement/ 
 https://www.pexels.com/photo/a-pair-of-geese-standing-on-water-with-the-city-buildings-in-toronto-canada-on-background-7707286/  
@@ -155,7 +155,6 @@ https://www.thespec.com/news/hamilton-region/2022/03/09/hamilton-harbour-polluti
 https://theconversation.com/earth-has-lost-one-fifth-of-its-wetlands-since-1700-but-most-could-still-be-saved-199362
 https://www.canada.ca/en/environment-climate-change/services/great-lakes-protection/areas-concern.html
 https://www.canada.ca/en/environment-climate-change/services/great-lakes-protection/taking-action-protect/coastal-wetlands/assessment-coastal-wetlands.html
-pbs
 https://www.pexels.com/photo/photo-of-people-near-wooden-table-3184418/ 
 https://www.pexels.com/video/trashes-flowing-on-a-lake-9736659/ 
 https://www.pexels.com/video/view-of-sunset-over-a-lake-3624322/ 
