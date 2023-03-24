@@ -170,7 +170,6 @@ https://www.pexels.com/video/footage-of-egrets-on-wetland-6348387/
 https://www.pexels.com/video/boat-on-a-swamp-14925903/ 
 https://www.pexels.com/video/drone-footage-of-a-coastal-wetland-13724577/
 
-
 Indigenous Inclusion in Great Lakes Governance
 https://digitalcommons.osgoode.yorku.ca/cgi/viewcontent.cgi?article=3988&context=scholarly_works
 https://zhaawanart.blogspot.com/2015/04/reflections-of-great-lakes-part-7.html
@@ -216,6 +215,28 @@ https://legacyfiles.ijc.org/tinymce/uploaded/Ciborowski%20Mapping%20Great%20Lake
 https://www.canada.ca/en/environment-climate-change/services/great-lakes-protection/taking-action-protect/nearshore-waters/science-at-the-lakeshore.html
 https://graham.umich.edu/activity/16536
 
-
-Video Background Music Credits
+Video Media Credits
 https://www.bensound.com/royalty-free-music/track/slow-motion 
+https://www.youtube.com/watch?v=XsNQQ6o9cjU 
+https://www.pexels.com/video/woods-and-grassland-in-sweden-13044538/ 
+https://www.pexels.com/video/drone-footage-of-solomon-islands-5396548/ 
+https://www.pexels.com/video/a-duck-floating-and-drinking-on-water-7168718/ 
+https://www.pexels.com/video/sun-beautiful-sunset-4023788/ 
+https://www.pexels.com/video/filling-a-glass-of-water-4484511/ 
+https://www.pexels.com/video/a-shot-of-the-water-tank-in-a-town-4404698/ 
+https://www.pexels.com/video/cold-water-drink-glass-3958714/ 
+https://www.pexels.com/video/a-person-sitting-alone-on-a-bench-in-front-of-a-lake-3151442/ 
+https://www.pexels.com/video/drone-footage-of-a-body-of-water-in-an-arctic-environment-8318374/ 
+https://www.pexels.com/video/drone-footage-of-the-thick-fog-on-a-mountain-forest-2711145/ https://www.pexels.com/video/geese-swimming-in-the-ocean-6004636/ 
+https://www.pexels.com/video/time-lapse-video-of-sundown-4727993/ 
+https://www.pexels.com/video/a-trail-in-the-forest-2882620/ 
+https://www.pexels.com/video/a-trail-in-the-forest-2882620/ 
+https://www.pexels.com/video/from-above-footage-of-an-egret-walking-on-murky-water-close-to-the-mangroves-and-flying-away-2980973/ 
+https://www.shutterstock.com/video/clip-10461743-romantic-sunset-aerial-ocean-coast-water-sun 
+https://www.pexels.com/video/drone-flying-around-a-lighthouse-8419021/ 
+https://www.youtube.com/watch?v=sHjwfneXRsU 
+https://www.youtube.com/watch?v=gagnnGKprBE 
+https://www.pexels.com/video/drone-footage-of-a-water-treatment-facility-5099278/ 
+https://www.pexels.com/video/plastic-bottle-in-blue-water-9656517/ 
+https://www.pexels.com/video/people-swimming-in-a-dirty-sea-water-3223326/ 
+https://www.pexels.com/video/woman-drinking-on-tumbler-7580372/ 
